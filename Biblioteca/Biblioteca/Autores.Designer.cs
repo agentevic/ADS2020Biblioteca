@@ -79,7 +79,7 @@ namespace Biblioteca
             // 
             // txtnom_actor
             // 
-            this.txtnom_actor.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtnom_actor.BackColor = System.Drawing.Color.Beige;
             this.txtnom_actor.Location = new System.Drawing.Point(68, 64);
             this.txtnom_actor.Margin = new System.Windows.Forms.Padding(2);
             this.txtnom_actor.Name = "txtnom_actor";
@@ -90,7 +90,7 @@ namespace Biblioteca
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Menu;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FloralWhite;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(45, 71);
@@ -149,7 +149,7 @@ namespace Biblioteca
             this.btnBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBuscar.FlatAppearance.BorderSize = 0;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Location = new System.Drawing.Point(490, 17);
+            this.btnBuscar.Location = new System.Drawing.Point(420, 23);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(42, 39);
@@ -159,7 +159,7 @@ namespace Biblioteca
             // 
             // txtid
             // 
-            this.txtid.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtid.BackColor = System.Drawing.Color.Beige;
             this.txtid.ForeColor = System.Drawing.SystemColors.Info;
             this.txtid.Location = new System.Drawing.Point(68, 32);
             this.txtid.Margin = new System.Windows.Forms.Padding(2);
@@ -169,8 +169,8 @@ namespace Biblioteca
             // 
             // txtBuscar
             // 
-            this.txtBuscar.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.txtBuscar.Location = new System.Drawing.Point(290, 25);
+            this.txtBuscar.BackColor = System.Drawing.Color.Beige;
+            this.txtBuscar.Location = new System.Drawing.Point(220, 31);
             this.txtBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(196, 20);
@@ -233,7 +233,7 @@ namespace Biblioteca
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(190, 26);
+            this.label3.Location = new System.Drawing.Point(120, 32);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 16);
@@ -274,7 +274,7 @@ namespace Biblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.Color.LemonChiffon;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(637, 465);
             this.Controls.Add(this.pictureBox1);
@@ -282,9 +282,11 @@ namespace Biblioteca
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Autores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autores";
             this.Load += new System.EventHandler(this.Autores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

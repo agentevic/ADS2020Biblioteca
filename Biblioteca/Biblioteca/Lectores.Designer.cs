@@ -69,7 +69,7 @@
             this.label1.Location = new System.Drawing.Point(238, 46);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 15);
+            this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tarjeta";
             // 
@@ -109,12 +109,13 @@
             this.label4.Location = new System.Drawing.Point(241, 160);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 15);
+            this.label4.Size = new System.Drawing.Size(56, 15);
             this.label4.TabIndex = 3;
             this.label4.Text = "Teléfono";
             // 
             // txtcarnet
             // 
+            this.txtcarnet.BackColor = System.Drawing.Color.Beige;
             this.txtcarnet.Location = new System.Drawing.Point(298, 38);
             this.txtcarnet.Margin = new System.Windows.Forms.Padding(2);
             this.txtcarnet.Name = "txtcarnet";
@@ -124,6 +125,7 @@
             // 
             // txtnombre
             // 
+            this.txtnombre.BackColor = System.Drawing.Color.Beige;
             this.txtnombre.Location = new System.Drawing.Point(301, 77);
             this.txtnombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtnombre.Name = "txtnombre";
@@ -134,6 +136,7 @@
             // 
             // txtdir
             // 
+            this.txtdir.BackColor = System.Drawing.Color.Beige;
             this.txtdir.Location = new System.Drawing.Point(302, 114);
             this.txtdir.Margin = new System.Windows.Forms.Padding(2);
             this.txtdir.Name = "txtdir";
@@ -144,6 +147,7 @@
             // 
             // txttel
             // 
+            this.txttel.BackColor = System.Drawing.Color.Beige;
             this.txttel.Location = new System.Drawing.Point(302, 152);
             this.txttel.Margin = new System.Windows.Forms.Padding(2);
             this.txttel.Name = "txttel";
@@ -170,7 +174,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Honeydew;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FloralWhite;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(4, 50);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
@@ -230,6 +234,7 @@
             // 
             // txtBuscar
             // 
+            this.txtBuscar.BackColor = System.Drawing.Color.Beige;
             this.txtBuscar.Location = new System.Drawing.Point(155, 23);
             this.txtBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.txtBuscar.Name = "txtBuscar";
@@ -238,7 +243,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.BackColor = System.Drawing.Color.LemonChiffon;
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label1);
@@ -346,15 +351,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(4F, 7F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LemonChiffon;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(694, 418);
             this.Controls.Add(this.atras);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Lectores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lectores";
             this.Load += new System.EventHandler(this.Lectores_Load);
             this.MouseHover += new System.EventHandler(this.Lectores_MouseHover);

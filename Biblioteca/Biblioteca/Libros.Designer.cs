@@ -62,6 +62,7 @@
             // 
             // txtid
             // 
+            this.txtid.BackColor = System.Drawing.Color.Beige;
             this.txtid.Location = new System.Drawing.Point(68, 33);
             this.txtid.Margin = new System.Windows.Forms.Padding(2);
             this.txtid.Name = "txtid";
@@ -71,6 +72,7 @@
             // 
             // txtTitulo
             // 
+            this.txtTitulo.BackColor = System.Drawing.Color.Beige;
             this.txtTitulo.Location = new System.Drawing.Point(68, 103);
             this.txtTitulo.Margin = new System.Windows.Forms.Padding(2);
             this.txtTitulo.Name = "txtTitulo";
@@ -79,6 +81,7 @@
             // 
             // txtBuscar
             // 
+            this.txtBuscar.BackColor = System.Drawing.Color.Beige;
             this.txtBuscar.Location = new System.Drawing.Point(300, 17);
             this.txtBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.txtBuscar.Name = "txtBuscar";
@@ -124,6 +127,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.Color.Beige;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(68, 148);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
@@ -134,7 +138,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FloralWhite;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(7, 54);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
@@ -232,6 +236,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.BackColor = System.Drawing.Color.Beige;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(68, 68);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
@@ -253,6 +258,7 @@
             // 
             // txtcopias
             // 
+            this.txtcopias.BackColor = System.Drawing.Color.Beige;
             this.txtcopias.Location = new System.Drawing.Point(128, 185);
             this.txtcopias.Margin = new System.Windows.Forms.Padding(2);
             this.txtcopias.Name = "txtcopias";
@@ -332,15 +338,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LemonChiffon;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(679, 518);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Libros";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Libros";
             this.Load += new System.EventHandler(this.Libros_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

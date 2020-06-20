@@ -34,12 +34,11 @@
             this.btn_prestamo = new System.Windows.Forms.Button();
             this.btn_lector = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.agregar_editorial = new System.Windows.Forms.Button();
             this.btnautor = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btn_libros
@@ -50,7 +49,7 @@
             this.btn_libros.FlatAppearance.BorderSize = 0;
             this.btn_libros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_libros.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_libros.Location = new System.Drawing.Point(147, 104);
+            this.btn_libros.Location = new System.Drawing.Point(341, 150);
             this.btn_libros.Margin = new System.Windows.Forms.Padding(2);
             this.btn_libros.Name = "btn_libros";
             this.btn_libros.Size = new System.Drawing.Size(100, 100);
@@ -65,7 +64,7 @@
             this.btn_prestamo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_prestamo.FlatAppearance.BorderSize = 0;
             this.btn_prestamo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prestamo.Location = new System.Drawing.Point(147, 222);
+            this.btn_prestamo.Location = new System.Drawing.Point(185, 234);
             this.btn_prestamo.Margin = new System.Windows.Forms.Padding(2);
             this.btn_prestamo.Name = "btn_prestamo";
             this.btn_prestamo.Size = new System.Drawing.Size(100, 100);
@@ -80,7 +79,7 @@
             this.btn_lector.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_lector.FlatAppearance.BorderSize = 0;
             this.btn_lector.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_lector.Location = new System.Drawing.Point(24, 104);
+            this.btn_lector.Location = new System.Drawing.Point(24, 150);
             this.btn_lector.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lector.Name = "btn_lector";
             this.btn_lector.Size = new System.Drawing.Size(100, 100);
@@ -92,11 +91,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.Turquoise;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(134, 9);
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label1.Location = new System.Drawing.Point(11, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.MaximumSize = new System.Drawing.Size(750, 115);
             this.label1.Name = "label1";
@@ -106,17 +105,6 @@
             this.label1.ForeColorChanged += new System.EventHandler(this.label1_DpiChangedAfterParent);
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(339, 117);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(272, 312);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
             // agregar_editorial
             // 
             this.agregar_editorial.BackColor = System.Drawing.Color.Transparent;
@@ -124,7 +112,7 @@
             this.agregar_editorial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.agregar_editorial.FlatAppearance.BorderSize = 0;
             this.agregar_editorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.agregar_editorial.Location = new System.Drawing.Point(24, 222);
+            this.agregar_editorial.Location = new System.Drawing.Point(24, 316);
             this.agregar_editorial.Margin = new System.Windows.Forms.Padding(2);
             this.agregar_editorial.Name = "agregar_editorial";
             this.agregar_editorial.Size = new System.Drawing.Size(100, 100);
@@ -139,7 +127,7 @@
             this.btnautor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnautor.FlatAppearance.BorderSize = 0;
             this.btnautor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnautor.Location = new System.Drawing.Point(92, 339);
+            this.btnautor.Location = new System.Drawing.Point(341, 316);
             this.btnautor.Margin = new System.Windows.Forms.Padding(2);
             this.btnautor.Name = "btnautor";
             this.btnautor.Size = new System.Drawing.Size(100, 100);
@@ -155,7 +143,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Bell MT", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(629, 396);
+            this.button1.Location = new System.Drawing.Point(207, 396);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(50, 50);
@@ -163,28 +151,38 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Turquoise;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(474, 125);
+            this.panel1.TabIndex = 15;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.LemonChiffon;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(690, 457);
+            this.ClientSize = new System.Drawing.Size(474, 457);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnautor);
             this.Controls.Add(this.agregar_editorial);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_prestamo);
             this.Controls.Add(this.btn_lector);
             this.Controls.Add(this.btn_libros);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Inicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menú";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -196,11 +194,11 @@
         private System.Windows.Forms.Button btn_prestamo;
         private System.Windows.Forms.Button btn_lector;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button agregar_editorial;
         private System.Windows.Forms.Button btnautor;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
